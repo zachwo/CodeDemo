@@ -1,66 +1,68 @@
 package com.oracle.StudentManagementSystem;
 
 public class Student {
-    private String number;
-    private String name;
-    private String sClass;
-    private String sex;
-    private int age;
+    private String stuNum;
+    private String stuName;
+    private String stuClass;
+    private String stuSex;
+    private int stuAge;
 
-    public Student() {
+    public Student(String stuNum) {
+        this.stuNum = stuNum;
     }
 
-    public Student(String number, String name, String sClass, String sex, int age) {
-        this.number = number;
-        this.name = name;
-        this.sClass = sClass;
-        this.sex = sex;
-        this.age = age;
+    public Student(String stuNum, String stuName, String stuClass, String stuSex, int age) {
+        this.stuNum = stuNum;
+        this.stuName = stuName;
+        this.stuClass = stuClass;
+        this.stuSex = stuSex;
+        this.stuAge = age;
     }
 
-    public String getNumber() {
-        return number;
+    public String getStuNum() {
+        return stuNum;
     }
 
-    public void setNumber(String number) {
-        this.number = number;
+    public void setStuNum(String stuNum) {
+        this.stuNum = stuNum;
     }
 
-    public String getName() {
-        return name;
+    public String getStuName() {
+        return stuName;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setStuName(String stuName) {
+        this.stuName = stuName;
     }
 
-    public String getsClass() {
-        return sClass;
+    public String getStuClass() {
+        return stuClass;
     }
 
-    public void setsClass(String sClass) {
-        this.sClass = sClass;
+    public void setStuClass(String stuClass) {
+        this.stuClass = stuClass;
     }
 
-    public String getSex() {
-        return sex;
+    public String getStuSex() {
+        return stuSex;
     }
 
-    public void setSex(String sex) {
-        this.sex = sex;
+    public void setStuSex(String stuSex) {
+            this.stuSex = stuSex;
     }
 
-    public int getAge() {
-        return age;
+    public int getStuAge() {
+        return stuAge;
     }
 
-    public void setAge(int age) {
-        this.age = age;
+    public void setStuAge(int stuAge) {
+        this.stuAge = stuAge;
     }
 
     @Override
     public String toString() {
-        return "学号："+this.getNumber()+"\t姓名："+this.getName()+"\t班级："+this.getsClass()+"\t性别："
-                +this.getSex()+"\t年龄："+this.getAge();
+        return "学号："+this.getStuNum()+"\t姓名:"+this.getStuName()+
+                "\t班级："+this.getStuClass()+"\t性别："+this.getStuSex()+
+                "\t年龄："+this.getStuAge();
     }
 }
