@@ -35,6 +35,7 @@ public class Add {
         System.out.println("请输入年龄");
         String age = scan.nextLine();
         int stuAge = Integer.parseInt(age);
+
         Student newStu = new Student(stuNum,stuName,stuClass,stuSex,stuAge);
         System.out.println(studentLibrary.add(newStu));
     }
