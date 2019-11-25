@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/20190512/20190512.iml" filepath="$PROJECT_DIR$/20190512/20190512.iml" />
-      <module fileurl="file://$PROJECT_DIR$/20190519/20190519.iml" filepath="$PROJECT_DIR$/20190519/20190519.iml" />
-      <module fileurl="file://$PROJECT_DIR$/20190526/20190526.iml" filepath="$PROJECT_DIR$/20190526/20190526.iml" />
+      <module fileurl="file://$PROJECT_DIR$/20190512_1/20190512_1.iml" filepath="$PROJECT_DIR$/20190512_1/20190512_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/20190519_1/20190519.iml" filepath="$PROJECT_DIR$/20190519_1/20190519.iml" />
       <module fileurl="file://$PROJECT_DIR$/20190526_1/20190526_1.iml" filepath="$PROJECT_DIR$/20190526_1/20190526_1.iml" />
       <module fileurl="file://$PROJECT_DIR$/20190526_2/20190526_2.iml" filepath="$PROJECT_DIR$/20190526_2/20190526_2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/20190616/20190616.iml" filepath="$PROJECT_DIR$/20190616/20190616.iml" />
+      <module fileurl="file://$PROJECT_DIR$/20190526_3/20190526_3.iml" filepath="$PROJECT_DIR$/20190526_3/20190526_3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/20190616_1/20190616_1.iml" filepath="$PROJECT_DIR$/20190616_1/20190616_1.iml" />
       <module fileurl="file://$PROJECT_DIR$/20190623_1/20190623_1.iml" filepath="$PROJECT_DIR$/20190623_1/20190623_1.iml" />
       <module fileurl="file://$PROJECT_DIR$/20190623_2/20190623_2.iml" filepath="$PROJECT_DIR$/20190623_2/20190623_2.iml" />
       <module fileurl="file://$PROJECT_DIR$/20190623_3/20190623_3.iml" filepath="$PROJECT_DIR$/20190623_3/20190623_3.iml" />
@@ -18,7 +18,7 @@
       <module fileurl="file://$PROJECT_DIR$/20190730_task/20190730_task.iml" filepath="$PROJECT_DIR$/20190730_task/20190730_task.iml" />
       <module fileurl="file://$PROJECT_DIR$/20190731_1/20190731_1.iml" filepath="$PROJECT_DIR$/20190731_1/20190731_1.iml" />
       <module fileurl="file://$PROJECT_DIR$/20190731_task/20190731_task.iml" filepath="$PROJECT_DIR$/20190731_task/20190731_task.iml" />
-      <module fileurl="file://$PROJECT_DIR$/20190801/20190801.iml" filepath="$PROJECT_DIR$/20190801/20190801.iml" />
+      <module fileurl="file://$PROJECT_DIR$/20190801_1/20190801_1.iml" filepath="$PROJECT_DIR$/20190801_1/20190801_1.iml" />
       <module fileurl="file://$PROJECT_DIR$/20190801_task/20190801_task.iml" filepath="$PROJECT_DIR$/20190801_task/20190801_task.iml" />
       <module fileurl="file://$PROJECT_DIR$/20190802_1/20190802_1.iml" filepath="$PROJECT_DIR$/20190802_1/20190802_1.iml" />
       <module fileurl="file://$PROJECT_DIR$/20190820_test/20190820_test.iml" filepath="$PROJECT_DIR$/20190820_test/20190820_test.iml" />

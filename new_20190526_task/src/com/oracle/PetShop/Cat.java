@@ -1,13 +1,13 @@
-package com.oracle.task1;
+package com.oracle.PetShop;
 
-public class Dog implements Animal,Pet {
+public class Cat implements Animal,Pet {
     private String name;
     private String color;
 
-    public Dog() {
+    public Cat() {
     }
 
-    public Dog(String name, String color) {
+    public Cat(String name, String color) {
         this.name = name;
         this.color = color;
     }
@@ -35,6 +35,6 @@ public class Dog implements Animal,Pet {
 
     @Override
     public String getAnimalType() {
-        return "狗";
+        return "猫";
     }
 }

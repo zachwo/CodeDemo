@@ -1,4 +1,4 @@
-package com.oracle.task1;
+package com.oracle.PetShop;
 
 public class Snake implements Animal {
     private String name;
