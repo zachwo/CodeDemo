@@ -60,6 +60,7 @@ public class StudentLibrary {
         return "学生信息删除成功！";
 
     }
+//    修改学生信息
     public String modify(Student student){
         index = students.length;
         for (int i=0; i<index; i++){
@@ -69,7 +70,7 @@ public class StudentLibrary {
         }
         return "学生信息更新完成！";
     }
-
+//      精确查找单个学生信息
     public Student search(String stuNum){
         index = students.length;
         Student student = null;
