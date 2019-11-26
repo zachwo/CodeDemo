@@ -1,5 +1,8 @@
 package com.oracle.task2;
 
+/**
+ * 2.编写一个多线程的程序，用来模拟同时下载多个任务，并显示出下载百分比。如果100%，则线程结束。
+ */
 public class MyThread implements Runnable{
     private int rate = 0;
 

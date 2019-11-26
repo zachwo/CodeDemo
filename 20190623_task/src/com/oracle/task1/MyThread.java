@@ -1,5 +1,8 @@
 package com.oracle.task1;
 
+/**
+ * 1.编写一个多线程的程序，模拟火车站卖票系统。共有4个窗口，同时卖出100张火车票
+ */
 public class MyThread implements Runnable {
     private int tickets = 100;
 
