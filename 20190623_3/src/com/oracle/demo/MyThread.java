@@ -1,5 +1,8 @@
 package com.oracle.demo;
 
+/**
+ * 实现线程的第一种方法：继承thread类，重写run方法
+ */
 public class MyThread extends Thread{
     private int temp=0;
     private String name;
