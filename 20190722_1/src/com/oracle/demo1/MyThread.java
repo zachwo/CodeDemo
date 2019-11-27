@@ -1,6 +1,6 @@
 package com.oracle.demo1;
 
-public class MyThread implements Runnable {
+public class  MyThread implements Runnable {
     private int tickets = 100;
 
     @Override
