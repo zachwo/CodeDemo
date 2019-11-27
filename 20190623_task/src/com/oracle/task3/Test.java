@@ -6,9 +6,9 @@ public class Test {
      * @param args
      */
     public static void main(String[] args) {
-        MyThread m1 = new MyThread(1,30000000);
-        MyThread m2 = new MyThread(1001,20000000);
-        MyThread m3 = new MyThread(2001,30000000);
+        MyThread m1 = new MyThread(1,1000);
+        MyThread m2 = new MyThread(1001,2000);
+        MyThread m3 = new MyThread(2001,3000);
 
         Thread t1 = new Thread(m1);
         Thread t2 = new Thread(m2);
