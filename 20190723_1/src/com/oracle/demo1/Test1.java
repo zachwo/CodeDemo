@@ -1,6 +1,9 @@
 package com.oracle.demo1;
 
-public class Test {
+/**
+ * runtime类基本操作：垃圾回收
+ */
+public class Test1 {
     public static void main(String[] args) {
         Runtime rt = Runtime.getRuntime();
         System.out.println("回收内存之前：");
