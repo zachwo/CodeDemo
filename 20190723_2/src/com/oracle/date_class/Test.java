@@ -33,6 +33,7 @@ public class Test {
         Date date1 = new Date();
         System.out.println("Date原始输出格式："+date1);
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy年MM月dd日 HH时mm分ss秒 SSS毫秒");
+//        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyyMMddHHmmssSSS");
         // 把date对象转换为字符串：
         String str = simpleDateFormat.format(date1);
         System.out.println(str);
