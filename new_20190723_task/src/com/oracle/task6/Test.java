@@ -31,9 +31,7 @@ public class Test {
             for (int j=1; j<students.length; j++){
                 if (students[i].getGrades()>students[j].getGrades()){
 
-                }else {
-
-                }if(students[i].getGrades()<students[j].getGrades()){
+                }else if(students[i].getGrades()<students[j].getGrades()){
                     Student t;
                     t = students[i];
                     students[i]=students[j];
