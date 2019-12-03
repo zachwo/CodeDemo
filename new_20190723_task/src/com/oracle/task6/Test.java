@@ -11,7 +11,7 @@ import java.util.EnumSet;
  */
 public class Test {
     public static void main(String[] args) {
-        String string = "张三:21:98|李四:22:70|王五:20:70";
+        String string = "张三:21:98|李四:22:70|王五:20:70|赵六:21:89";
         String[] strings = string.split("\\|");
         Student[] students = new Student[strings.length];
         //获取学生数组
@@ -31,7 +31,9 @@ public class Test {
             for (int j=1; j<students.length; j++){
                 if (students[i].getGrades()>students[j].getGrades()){
 
-                }else if(students[i].getGrades()<students[j].getGrades()){
+                }else {
+
+                }if(students[i].getGrades()<students[j].getGrades()){
                     Student t;
                     t = students[i];
                     students[i]=students[j];
