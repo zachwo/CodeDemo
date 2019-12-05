@@ -11,6 +11,16 @@ public class Test {
         String filePath = basePath+ File.separator+"task6";
         new File(filePath).mkdirs();
 
-        File file = new File(filePath+File.separator+"directory1");
+        File srcFile = new File(filePath+File.separator+"directory1");
+        File destFile = new File(filePath+File.separator+"destFile");
+    }
+
+    public static void copyDirectory(File srcFile,File destFile){
+        if (srcFile.exists()){
+            if (!destFile.exists()){
+                destFile.mkdirs();
+            }
+            
+        }
     }
 }

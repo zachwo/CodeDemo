@@ -12,14 +12,32 @@ public class Test {
         String filePath = basePath+ File.separator+"task5";
         new File(filePath).mkdirs();
 
-        File file1 = new File(filePath+ File.separator+"a.txt");
-        try {
-            file1.createNewFile();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+        File srcFile = new File(filePath+ File.separator+"a.txt");
+        File destFile = new File(filePath+File.separator+"destFile");
 
-        File file2 = new File(filePath+File.separator+"a(copy).txt");
-        
+        copyFile(srcFile,destFile);
+
+
+    }
+
+    /**
+     *
+     * @param srcFile 源文件
+     * @param destFile 目标文件
+     */
+    public static void copyFile(File srcFile,File destFile){
+        //复制文件的大前提是源文件存在
+        if (srcFile.exists()){
+            if (!destFile.exists()){
+                destFile.mkdirs();
+            }
+            String destPath = destFile.getAbsolutePath();
+            File file = new File(destPath+File.separator+srcFile.getName());
+            try {
+                file.createNewFile();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
     }
 }
