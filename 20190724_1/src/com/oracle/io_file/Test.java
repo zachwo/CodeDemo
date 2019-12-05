@@ -2,6 +2,7 @@ package com.oracle.io_file;
 
 import java.io.File;
 import java.io.IOException;
+import java.security.PublicKey;
 
 /**
  * File类练习
@@ -29,13 +30,17 @@ public class Test {
 //        File file2 = new File(basepath+File.separator+"directory1"+File.separator+"directory2");
 //        file2.mkdirs();
 
+        File file3 = new File(basepath+File.separator+"directory1");
 //        文件夹删除练习
-//        File file3 = new File(basepath+File.separator+"directory1");
 //        deleteFile(file3);
+//        获取文件夹路径
+        printFilePath(file3);
+
 
     }
 
     /**
+     * 删除文件夹
      * 因为delete()方法只能删除空文件夹或者文件，所以对于非空文文件夹需要遍历递归执行delete()方法
      * @param file 需要删除的文件路径
      */
@@ -54,5 +59,22 @@ public class Test {
             file.delete();
         }
     }
+
+    /**
+     * 获取文件/文件夹的绝对路径
+     * @param file
+     */
+    public static void printFilePath(File file){
+        if (file.isDirectory()){
+            System.out.println(file.getAbsolutePath());
+            File[] files = file.listFiles();
+            for (File f: files){
+                printFilePath(f);
+            }
+        }else {
+            System.out.println(file.getAbsolutePath());
+        }
+    }
+
 
 }
